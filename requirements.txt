@@ -1,0 +1,5 @@
+firebase_admin==6.5.0
+Flask==3.0.3
+Pyrebase4==4.8.0
+python-dotenv==1.0.1
+waitress==3.0.0
