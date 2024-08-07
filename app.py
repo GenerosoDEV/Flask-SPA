@@ -1,11 +1,9 @@
 from flask import Flask
-from models.database import initialize_firebase
+from models.firebase_service import FirebaseService
 from waitress import serve
 import os, importlib, dotenv
 
 dotenv.load_dotenv()
-
-initialize_firebase()
 
 ignored_routes = ["/static"]
 def checkConflicts(blueprint):

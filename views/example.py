@@ -1,4 +1,4 @@
-import models.database as db
+from models.firebase_service import FirebaseService
 import os
 from flask import Blueprint, render_template
 
